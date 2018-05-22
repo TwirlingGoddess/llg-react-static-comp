@@ -7,7 +7,7 @@ import './App.css';
 
 const stories = [
   {
-    img: './story1.jpg',
+    img: './public/story1.jpg',
     title: 'Winning at Fonts',
     desc: 'or, Why you should care about typography',
     authImg: './louisa.png',
@@ -15,7 +15,7 @@ const stories = [
     estTime: '2 min'
   },
   {
-    img: './story2.jpg',
+    img: './public/story2.jpg',
     title: 'Hoodlums: a dissertation',
     desc: 'Examining villains in modern storytelling',
     authImg: './alternate.png',
@@ -23,7 +23,7 @@ const stories = [
     estTime: '10 min'
   },
   {
-    img: './story3.jpg',
+    img: './public/story3.jpg',
     title: 'Halloween is a year-round sport',
     desc: 'Those who say otherwise just aren\'t trying hard enough.',
     authImg: './leta.png',
@@ -31,7 +31,7 @@ const stories = [
     estTime: '8 min'
   },
   {
-    img: './story4.jpg',
+    img: './public/story4.jpg',
     title: 'How to Improve Learning and Classroom Engagement with Humor',
     desc: 'Okay, so first of all, everybody knows fart jokes are hilarious ...',
     authImg: './pamela.png',

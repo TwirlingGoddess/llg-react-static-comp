@@ -15,7 +15,11 @@ const Stories = (props) => {
             console.log(story);
             // INSTEAD OF returning the div below, return a Story component
             // Be sure to pass down the correct props!
-            return (<div>{story.title}</div>)
+            return (
+            <div key={index}>
+              <h1>{story.title}</h1>
+              <img src={story.img}/>
+            </div>)
           })
         }
       </div>
