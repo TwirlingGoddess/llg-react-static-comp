@@ -2,7 +2,7 @@
 import React from 'react';
 import './Author.css';
 
-const Author = () => {
+const Author = (props) => {
   return (
     <div className='story-author-info'>
       <img src={props.authImg} className='story-author-image' />

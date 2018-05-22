@@ -1,22 +1,22 @@
-.author-info-text {
+.story-author-info-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.author-info {
+.story-author-info {
   display: flex;
   align-items: center;
 }
 
-.author-image {
+.story-author-image {
   max-width: 35px;
   height: 35px;
   border-radius: 50px;
   border-color: red;
 }
 
-.author-text h4 {
+.story-author-text h4 {
   font-size: 14px;
   font-weight: normal;
   margin: 0 0 0 10px;

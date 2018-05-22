@@ -12,14 +12,17 @@ const Stories = (props) => {
       <div className='stories-grid'>
         {
           props.stories.map( (story, index) => {
-            console.log(story);
+            console.log(Stories);
             // INSTEAD OF returning the div below, return a Story component
             // Be sure to pass down the correct props!
-            return (
-            <div key={index}>
-              <h1>{story.title}</h1>
-              <img src={story.img}/>
-            </div>)
+            
+            return(<Story key={index}
+                          img = {story.img}
+                          title = {story.title}
+                          authImg = {story.authImg}
+                          authName = {story.authName}
+                          estTime = {story.estTime} 
+                          />)
           })
         }
       </div>
@@ -27,4 +30,9 @@ const Stories = (props) => {
   )
 }
 
+              // <img src={story.img}/>
+              // <p>{story.desc}</p>
+              // <img src={story.authImg}/>
+              // <p>{story.authName}
+              // <br/>{story.estTime}</p>
 export default Stories;
