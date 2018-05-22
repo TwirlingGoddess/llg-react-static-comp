@@ -1,19 +1,21 @@
-# React Starter Kit
 
-To install the dependencies:
+# React Static Comp
 
-```
-npm install
-```
+### Specification
+The React static comp is designed to get you comfortable with basic React principles and to keep up your CSS skills.
 
-To fire up a development server:
+### Things to note
+- All of the assets are provided in the repo
+- You will be tasked with writing JSX, passing props, and writing some CSS
+- We haven't provided any breakpoints or designs:
+  - You will need to write them yourself ...
+  - including editing the `index.html` to include the proper meta tags
 
-```
-npm start
-```
-
-Once the server is running, you can visit:
-
+### Base Requirements
+- Basic React site set up with provided repo
+- Create a repo on github :octocat: for your work with following naming construct: `[initials]-react-static-comp`
+  - (i.e. `lk-react-static-comp`)
+- Include a README with the repo that provides
 * `http://localhost:8080/webpack-dev-server/` to run your application.
 * `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
 
@@ -49,3 +51,6 @@ You can gather ideas for the responsive design based on [Medium's website](https
 - Begin to understand writing in JSX
 - Begin to understand passing data through props
 - Have a sandbox in which to practice working with React
+
+## My recreation
+![did this all by myself]()
