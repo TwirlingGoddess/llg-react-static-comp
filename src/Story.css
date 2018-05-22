@@ -29,3 +29,34 @@
   line-height: 150%;
   margin: 0;
 }
+
+@media screen and (max-width: 1000px) {
+
+  .Story {
+    min-width: 100%;
+    max-width: 100%;;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  
+  .Story {
+    min-width: 100%;
+    max-width: 100%;;
+  }
+  
+  .Story img {
+    width: 165px;
+  }
+
+  .story-info h3 {
+    line-height: 100%;
+    margin: 0;
+  }
+
+  .story-info p {
+    line-height: 100%;
+  }
+  
+}

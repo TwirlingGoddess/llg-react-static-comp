@@ -5,8 +5,8 @@ module.exports = {
     test: ['babel-polyfill', 'mocha!./test/index.js'],
   },
   output: {
-    path: __dirname,
-    filename: '[name].bundle.js',
+    path: '/',
+    filename: 'main.bundle.js',
   },
   module: {
     loaders: [
