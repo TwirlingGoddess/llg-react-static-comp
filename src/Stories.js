@@ -19,6 +19,7 @@ const Stories = (props) => {
             return(<Story key={index}
                           img = {story.img}
                           title = {story.title}
+                          desc = {story.desc}
                           authImg = {story.authImg}
                           authName = {story.authName}
                           estTime = {story.estTime} 
@@ -28,11 +29,5 @@ const Stories = (props) => {
       </div>
     </div>
   )
-}
-
-              // <img src={story.img}/>
-              // <p>{story.desc}</p>
-              // <img src={story.authImg}/>
-              // <p>{story.authName}
-              // <br/>{story.estTime}</p>
+  
 export default Stories;
